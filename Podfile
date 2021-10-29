@@ -6,8 +6,8 @@ target 'QiitaAPI-Practice' do
   use_frameworks!
 
   # Pods for QiitaAPI-Practice
-  pod 'OAuthSwift'
-
+  pod 'OAuthSwift', '~> 2.2.0'
+  
   target 'QiitaAPI-PracticeTests' do
     inherit! :search_paths
     # Pods for testing
